@@ -83,7 +83,6 @@ const Recorder = React.createClass({
   },
 
   propTypes: {
-    command: PropTypes.oneOf(['start', 'stop', 'pause', 'resume', 'none']),
     onStop: PropTypes.func.isRequired,
     onMissingAPIs: PropTypes.func,
     onError: PropTypes.func,
